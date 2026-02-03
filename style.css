@@ -11,17 +11,21 @@ body{
     font-weight: 400;
     
 }
-.logo{
+.logo img{
     display: flex;
     align-items: center;
     font-weight: 700;
+    height: 2vh;
+    align-self: center;
+    margin-top: 1vh;
+    
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     /* margin: 2vh; */
-    margin: 0  10px;
+    margin: 0  2vw;
     background-color: #15120b;
     margin-top: 2vh;
 
