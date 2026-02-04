@@ -7,7 +7,8 @@
 body{
     background-color:#15120b;
     color: #e8efe1;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: Arial, sans-serif;
+  font-size: 16px;
     font-weight: 400;
     
 }
@@ -80,6 +81,8 @@ border-radius: 3.40282e38px;
     background-color: #e8efe1;
     width: 95vw;
     height: 100vh;
+   
+    
     
     
     
@@ -91,3 +94,117 @@ border-radius: 3.40282e38px;
    
     width: 95vw;
 }
+
+.brandsbox{
+    border-radius: 5px ;
+    height: 15vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1a1914;
+    
+
+}
+.brandsbox img{
+    height:6vh ;
+}
+.box2 img{
+     width: 95vw;
+    height: 100vh;;
+}
+.box3{
+    flex-wrap: wrap;
+}
+
+.box4{
+     width: 95vw;
+    height: 100vh;
+  background-color:#1a1914;
+ 
+}
+.box4 .left{
+   display: flex;
+   flex-direction: column;
+  
+   justify-content: center;
+   padding: 2vw;
+   gap: 1vh;
+   
+}
+.box4 .right img{
+    height: 95vh;
+    width: 65vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+    
+}
+.box5{
+     width: 95vw;
+    height: 100vh;
+  background-color:#1a1914;
+ 
+}
+.box5right{
+     display: flex;
+   flex-direction: column;
+  
+   justify-content: center;
+   padding: 2vw;
+   gap: 1vh;
+}
+.box5left{
+    background-color: #333d3f;
+    margin: 4vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box6{
+     width: 95vw;
+    height: 100vh;
+  background-color:#1a1914;
+ 
+}
+.box6 .left{
+   display: flex;
+   flex-direction: column;
+  
+   justify-content: center;
+   padding: 2vw;
+   gap: 1vh;
+   
+}
+.box6 .right img{
+    height: 95vh;
+    width: 65vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+    
+}
+.box7{
+    width: 95vw;
+    height: 100vh;
+    gap: 4vh;
+    
+    
+    
+}
+.boxss{
+   
+    width: 30vw;
+    background-color:#1a1914;
+    font-size: 3vh;
+    
+
+   
+    
+}
+ .table{
+    margin-top: 10vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+ }
